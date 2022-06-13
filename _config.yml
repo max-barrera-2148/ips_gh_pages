@@ -48,6 +48,12 @@ kramdown:
 
 permalink: /:slug
 
+defaults:
+  -
+    scope:
+      path: "RSKIPS"
+    values:
+      layout: "rskip"
 
 exclude:
   - .github
